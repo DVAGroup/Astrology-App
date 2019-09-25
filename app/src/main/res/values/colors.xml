@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#14145C</color>
+    <color name="colorPrimaryDark">#14145C</color>
+    <color name="colorAccent">#8C0202</color>
+
+    // #00574B #191970
+
+    <color name="MidnightBlue">#191970</color>
+    <color name="PowderBlue">#B0E0E6</color>
+    <color name="LightSteelBlue">#B0C4DE</color>
+    <color name="Yellow">#FFFF00</color>
+
+
+
+</resources>

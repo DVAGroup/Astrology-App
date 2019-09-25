@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dna"
+    tools:context=".MainActivity" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="205dp"
+            android:layout_height="50dp"
+            android:onClick="finish"
+            android:text="Exit"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="OnClick" />
+
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="205dp"
+            android:layout_height="50dp"
+            android:onClick="openMainActivity2"
+            android:text="Next"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="OnClick" />
+
+        <TextView
+            android:id="@+id/textViewWelcomeMsg"
+            android:layout_width="391dp"
+            android:layout_height="50dp"
+            android:text='"As above, so below" '
+            android:textColor="@color/colorAccent"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textViewHermesTrismegistus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-- Hermes Trismegistus"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.955"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewWelcomeMsg"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>

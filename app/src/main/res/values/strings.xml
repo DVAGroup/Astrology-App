@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Real Time Astrology</string>
+    <string name="button_label_Next">Next</string>
+    <string name="button_label_NextPage">Next</string>
+    <string name="button_label_Back">Back</string>
+    <string name="button_label_Next_Page">Next</string>
+    <string name="button_label_Back2">Back</string>
+    <string name="astro_chart_reading">Astro Chart Reading</string>
+    <string name="relationship_compatibility">Relationship Compatibility</string>
+    <string name="careerpath">CareerPath</string>
+    <string name="terri_guillemets">—Terri Guillemets</string>
+    <string name="astronomer_astrologer">“The astronomer has a starry map of the past, the astrologer, of our futures.”</string>
+</resources>
