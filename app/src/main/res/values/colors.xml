@@ -5,12 +5,13 @@
     <color name="colorAccent">#8C0202</color>
 
     // #00574B #191970
-
+    <color name="White">#FFFFFF</color>
     <color name="MidnightBlue">#191970</color>
     <color name="PowderBlue">#B0E0E6</color>
     <color name="LightSteelBlue">#B0C4DE</color>
     <color name="Yellow">#FFFF00</color>
-
+    <color name="Crimson">#DC143C</color>
+    <color name="Chocolate">#D2691E</color>
 
 
 </resources>

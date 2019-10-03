@@ -36,25 +36,27 @@
 
         <TextView
             android:id="@+id/textViewWelcomeMsg"
-            android:layout_width="391dp"
-            android:layout_height="50dp"
-            android:text='"As above, so below" '
-            android:textColor="@color/colorAccent"
-            android:textSize="25sp"
+            android:layout_width="394dp"
+            android:layout_height="65dp"
+            android:text="@string/welcome_to_journey_of_self_discovery"
+            android:textColor="@color/White"
+            android:textSize="20sp"
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.092"
             tools:ignore="MissingConstraints" />
 
         <TextView
-            android:id="@+id/textViewHermesTrismegistus"
+            android:id="@+id/textViewHarryWaldauer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-- Hermes Trismegistus"
-            android:textColor="@color/colorAccent"
-            android:textSize="18sp"
+            android:text="@string/harry_waldauer"
+            android:textColor="@color/White"
+            android:textSize="17sp"
             android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
